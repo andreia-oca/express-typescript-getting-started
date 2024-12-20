@@ -3,8 +3,9 @@ import express, { Express } from 'express';
 const app: Express = express();
 const port = 8080;
 
-app.get('/', (_req, res) => {
-  res.send('Hello World from serverless!');
+
+app.get("/", (_req, res) => {
+  res.send("Just hello");
 });
 
 app.get('/users', (_req, res) => {
