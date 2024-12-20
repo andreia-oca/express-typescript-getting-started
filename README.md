@@ -1,19 +1,3 @@
-<div align="center"> <a href="https://genezio.com/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/genez-io/graphics/raw/HEAD/svg/Icon_Genezio_White.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/genez-io/graphics/raw/HEAD/svg/Icon_Genezio_Black.svg">
-    <img alt="genezio logo" src="https://github.com/genez-io/graphics/raw/HEAD/svg/Icon_Genezio_Black.svg" height="100" >
-  </picture>
-</a>
- </div>
-
-<div align="center">
-
-[![Join our community](https://img.shields.io/discord/1024296197575422022?style=social&label=Join%20our%20community%20&logo=discord&labelColor=6A7EC2)](https://discord.gg/uc9H5YKjXv)
-[![Follow @geneziodev](https://img.shields.io/twitter/url/https/twitter.com/geneziodev.svg?style=social&label=Follow%20%40geneziodev)](https://twitter.com/geneziodev)
-
-</div>
-
 # Genezio Express Typescript Getting Started
 
 In the app/index.ts file, you will see a very basic Express.js Typescript application that is set up to be deployed as a Genezio function. It handles a couple of requests (/ and /users).
