@@ -1,16 +1,16 @@
-import express, { Express } from "express";
+import express, { Express } from 'express';
 
 const app: Express = express();
 const port = 8080;
 
+
 app.get("/", (_req, res) => {
   res.send("Just hello");
-});
 
-app.get("/users", (_req, res) => {
+app.get('/users', (_req, res) => {
   res.json([
-    { id: 1, name: "Alice" },
-    { id: 2, name: "Bob" },
+    { id: 1, name: 'Alice' },
+    { id: 2, name: 'Bob' },
   ]);
 });
 
